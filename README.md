@@ -44,10 +44,13 @@ threads: "15"
 # Specify Combinations using "+" between combinations
 combinations: "Tumor_Lung + Tumor_Liver + Lung_Liver"
 
-# Reference Assembly version
+# Reference Assembly version (Indexing command provided below)
 reference: "<path/to/indexed/reference/folder>"
 ```
-
+##### Genome indexing using STAR
+```bash
+STAR --runMode genomeGenerate --genomeDir {index_dir_name} --genomeFastaFiles {path to ".fasta" file} --sjdbGTFfile {path to ".gtf" file} --sjdbOverhang 100 --runThreadN 10
+```
 ### Step 7: Open Terminal in Project Folder
 Navigate to the project folder in your terminal/command prompt.
 
