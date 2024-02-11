@@ -1,5 +1,3 @@
-# RNASeq_DEGseq_Snakemake
-Workflow for differential gene expression analysis for non-replicate samples using DEGseq
 # Differential Gene Expression Analysis for Samples with No Replicates
 
 This guide provides steps to run an RNA_SEQ Snakemake file for performing differential gene expression analysis when samples have no replicates.
