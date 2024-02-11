@@ -2,7 +2,6 @@ import os
 from os.path import join
 from pyfiglet import Figlet
 f = Figlet(font='slant')
-print (f.renderText('Welcome to Eurofins'))
 print (f.renderText('RNA-Seq Reference based No Replicate Pipeline'))
 dev = Figlet(font='digital')
 print (dev.renderText('Developed : Meeran Hussain'))
