@@ -1,0 +1,5 @@
+sample_name	condition
+Tumor_1	Tumor
+Liver_1	Liver
+Lung_1	Lung
+

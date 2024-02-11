@@ -1,0 +1,14 @@
+#Enter organism name (Scientific name)
+org : "Mus musculus"
+
+#Enter Kegg organism code
+org_code : mmu
+
+#Specify Number of threads
+threads : "15"
+
+#Specify Combinations using "+" between combinations
+combinations : "Tumor_Lung+Tumor_Liver+Lung_Liver"
+
+#Reference Assembly version
+reference: "<path/to/indexed/reference/folder>"
