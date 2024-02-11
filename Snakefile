@@ -18,9 +18,7 @@ reference = config["reference"]
 ############################################################################
 
 ####### Fetch path of specified organism Index ################################
-path_add = ("/mnt/data1/EGI/01_RNASeq/Automation_testing/Reference_file",reference,"genome_idx")
-path = "/".join(path_add)
-STAR_INDEX = path
+STAR_INDEX = reference
 SAMPLE_DIR = "1_Data"
 SAMPLES, = glob_wildcards(SAMPLE_DIR + "/{sample}_R1.fq.gz")
 ###############################################################################
